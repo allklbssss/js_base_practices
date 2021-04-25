@@ -1,0 +1,56 @@
+body {
+  font-family: Monotype Corsiva;
+  max-width: 100%;
+  background-color: #cc8d45e0;
+}
+.container {
+  border-radius: 8px;
+  height: 200px;
+  padding: 20px;
+  background-color: #f0e3d6e1;
+}
+
+header {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+  padding: 20px;
+}
+
+.calculator {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.lable {
+  padding: 20px;
+}
+
+#date {
+  font-family: Monotype Corsiva;
+  font-size: 18px;
+  padding: 10px;
+  height: 20px;
+  width: 200px;
+  margin: 10px;
+}
+
+.count_btn {
+  font-family: Monotype Corsiva;
+  font-size: 17px;
+  background-color: #57524d60;
+  border-radius: 5px;
+  height: 40px;
+  width: 100px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.result {
+  margin: 10px;
+  padding: 10px;
+  font-family: Monotype Corsiva;
+  font-size: 25px;
+}

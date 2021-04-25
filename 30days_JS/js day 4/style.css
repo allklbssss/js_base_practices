@@ -1,0 +1,72 @@
+body {
+  margin: 0;
+  background-color: rgba(128, 128, 128, 0.253);
+}
+
+h1 {
+  background-color: #2b2929ad;
+  font-family: garamond;
+  font-weight: lighter;
+  font-size: 50px;
+  color: white;
+  padding: 30px;
+  margin: 0;
+}
+
+h2 {
+  position: relative;
+  font-family: garamond;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+#output {
+  position: relative;
+  font-family: garamond;
+  font-size: 70px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+#btn {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+#btn-get {
+  width: 250px;
+  height: 60px;
+  font-size: 30px;
+  font-family: garamond;
+  background-color: #2b2929b2;
+  color: white;
+}
+
+h3 {
+  position: relative;
+  font-family: garamond;
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+}
+
+#range {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  font-family: garamond;
+  font-size: 30px;
+}
+
+input {
+  width: 50px;
+  height: 30px;
+}
+ul {
+  display: inline-flex;
+}

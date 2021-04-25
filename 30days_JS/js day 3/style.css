@@ -1,0 +1,40 @@
+body {
+  background-color: #ab74b091;
+  font-family: Bradley Hand, cursive;
+  color: black;
+}
+main {
+  margin: 140px;
+  max-width: 100%;
+  background-color: white;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+#promt {
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+}
+
+#promt input {
+  display: block;
+  outline: none;
+  border: none;
+  color: black;
+  padding: 1rem 0.5rem;
+  font-size: 15px;
+  font-family: Bradley Hand, cursive;
+  position: relative;
+}
+
+#output {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+#output .user {
+  color: black;
+  font-weight: bold;
+}

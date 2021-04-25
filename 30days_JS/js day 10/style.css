@@ -1,0 +1,38 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: rgba(51, 143, 143, 0.603);
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 12px;
+  width: 300px;
+  margin: auto;
+  padding: 30px;
+  background-color: rgba(255, 255, 255, 0.733);
+}
+
+h1 {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+
+input {
+  height: 35px;
+  width: 280px;
+}
+
+#first,
+#second {
+  height: 35px;
+  width: 80px;
+  margin: 10px 0 0 0;
+  border-radius: 3px;
+  background-color: whitesmoke;
+}

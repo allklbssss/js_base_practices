@@ -1,0 +1,71 @@
+body {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 40px 20px;
+  justify-content: center;
+}
+
+#pad {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 40px;
+  width: 40vmin;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.2);
+}
+
+div[id="pad"] input {
+  height: 1.5em;
+  margin: 0 0 40px 0;
+  text-align: center;
+  font-size: 50px;
+  border: none;
+  border-radius: 20px;
+  background-color: white;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+#pad .keyboard {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  gap: 20px;
+}
+
+#pad .keyboard .key {
+  display: flex;
+  height: calc(40vmin / 3 - 20px / 2);
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  border-radius: 20px;
+  cursor: pointer;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+#pad .keyboard .key.number {
+  font-size: 4em;
+  cursor: pointer;
+}
+
+#pad .keyboard .key:not(.number) {
+  font-size: 2em;
+  cursor: pointer;
+}
+
+#pad .keyboard .key.number.clear,
+#pad .keyboard .key.number.done {
+  font-size: 40px;
+}
+
+#pad .keyboard .key:hover {
+  background-color: rgba(26, 37, 75, 0.164);
+}

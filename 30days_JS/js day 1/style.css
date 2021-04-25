@@ -1,0 +1,46 @@
+body {
+  margin: auto;
+}
+
+h1 {
+  background-color: black;
+  color: white;
+  padding: 25px;
+  margin: 0;
+  font-family: Courier New, monospace;
+}
+
+.form_text {
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin: -100px 0 0 -150px;
+}
+
+label {
+  font-size: 30px;
+  font-family: Courier New, monospace;
+}
+
+.text {
+  width: 500px;
+  height: 200px;
+}
+
+.btn-listen {
+  background-color: black;
+  color: white;
+  font-family: Courier New, monospace;
+  font-size: 15px;
+  padding: 8px;
+  width: 150px;
+}
+
+select {
+  height: 30px;
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
